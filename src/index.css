@@ -1,11 +1,14 @@
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+body {
+    background: #fff;
+} 
+
+.nav{
+    width: 60%;
+    margin: auto;
 }
 
-.logo-img{
-    display: flex;
-    justify-content: space-between;
+.pad{
+    margin-right: 10px;
 }
