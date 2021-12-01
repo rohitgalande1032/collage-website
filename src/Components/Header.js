@@ -1,6 +1,6 @@
 import React from 'react';
-import logo1 from './images/govt-college-logo.png';
-import logo2 from './images/govt-logo.png'
+import logo1 from '../images/govt-college-logo.png';
+import logo2 from '../images/govt-logo.png'
 const Header = () => {
     return (
         <>
