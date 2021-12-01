@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+
 
 const Home = () => {
     return (
         <>
-            <h1>Homepage page</h1>
+            <h1>Home page</h1>
         </>
     )
 }
