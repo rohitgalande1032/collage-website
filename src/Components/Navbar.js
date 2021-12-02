@@ -5,13 +5,13 @@ import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 const Navbars = () => {
     return (
         <>
-            <Navbar bg="light" expand="lg" stiky="top" className="mr-16 fs-5 fw-lighter" >
+            <Navbar expand="lg" stiky="top" className="fs-6 fw-lighter navbar" >
                 <Container className="nav">
 
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link href="/" className="px-1">Home</Nav.Link>
+                        <Nav className="me-auto text-white">
+                            <Nav.Link href="/" className="px-1 text-white fw-bolder">Home</Nav.Link>
 
                             <NavDropdown title="About" id="basic-nav-dropdown" className="px-1">
                                 <NavDropdown.Item href="#action/3.1">About Institute</NavDropdown.Item>
