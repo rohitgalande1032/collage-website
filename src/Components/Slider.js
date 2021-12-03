@@ -1,52 +1,50 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
-import home1 from '../images/sample1.png';
-import home2 from '../images/sample3.png';
-import home3 from '../images/sample3.png';
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
+import first from '../images/home1.png';
+import second from '../images/gcoeara2.png';
+import third from '../images/home-3.jpg';
+
 
 const Slider = () => {
-  return (
-    <>
+    return (
+        <>
+         <div style={{ display: 'block', width: '100%', position:'absolute', top:'0' }}>
+            <Carousel indicators={false} controls={false}>
+                <Carousel.Item interval={4000}>
+                <img style={{height: '100vh'}}
+                    className="d-block w-100"
+                    src={first}
+                    alt="Image One"
+                />
+                <Carousel.Caption>
+                    <h1 className='caption'>Welcome to GCOEARA</h1>
+                </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item interval={4000}>
+                <img style={{height: '100vh'}}
+                    className="d-block w-100"
+                    src={second}
+                    alt="Image Two"
+                />
+                <Carousel.Caption>
+                    <h1 className='caption'>Follow Your Dreams in GCOEARA</h1>
+                </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item interval={4000}>
+                <img style={{height: '100vh'}}
+                    className="d-block w-100"
+                    src={third}
+                    alt="Image One"
+                />
+                <Carousel.Caption>
+                    <h1 className='caption'>Give a path to your derams</h1>
+                </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
+            </div>   
+        </>
+    )
+}
 
-
-      <Carousel fade id="root" className="slides">
-        <Carousel.Item>
-          <img
-            
-            className="sliderImage"
-            src={home1}
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="sliderImage"
-            src={home2}
-            alt="Second slide"
-          />
-          
-          <Carousel.Caption>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="sliderImage"
-            src={home3}
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        
-      </Carousel>
-      
-    </>
-  );
-};
-export default Slider;
+export default Slider
