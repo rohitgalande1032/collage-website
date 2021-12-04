@@ -15,7 +15,7 @@ const Slider = () => {
                 <img style={{height: '75.8vh'}}
                     className="d-block w-100"
                     src={first}
-                    alt="Image One"
+                    alt="Slider One"
                 />
                 <Carousel.Caption>
                     <h1 className='caption'>Welcome to GCOEARA</h1>
@@ -25,7 +25,7 @@ const Slider = () => {
                 <img style={{height: '75.8vh'}}
                     className="d-block w-100"
                     src={second}
-                    alt="Image Two"
+                    alt="Slider Two"
                 />
                 <Carousel.Caption>
                     <h1 className='caption'>Follow Your Dreams in GCOEARA</h1>
@@ -35,7 +35,7 @@ const Slider = () => {
                 <img style={{height: '75.8vh'}}
                     className="d-block w-100"
                     src={third}
-                    alt="Image One"
+                    alt="Slider One"
                 />
                 <Carousel.Caption>
                     <h1 className='caption'>Give a path to your derams</h1>

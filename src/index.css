@@ -54,6 +54,35 @@
 .aboutSection{
     padding-right: 0px;
 }
+.academicUnit{
+    width: 100%;
+    background-color: gray;
+    height: 350px;
+    padding: 2rem 0;
+}
+.academic{
+    width: 80%;
+    margin: auto;
+}
+.unit{
+    width: 270px;
+    height: 140px;
+    border: 1px solid #000;
+    padding: 30px;
+    color: red;
+    margin-top: 2rem;
+}
+.unit:hover{
+    background-color: red;
+    color: #fff;
+    transition: .5s;
+}
+.cardName{
+    width:18rem;
+    height: 15rem;
+    background-color: red;
+}
+
 
 @media screen and (max-width: 600px) {
     .head {
@@ -73,6 +102,20 @@
     }
     .box2, .box3{
         background-color: #fff;
+    }
+    .unit{
+        width: 200px;
+        height: 120px;
+        padding: 30px;
+        margin-top: 1rem;
+    }
+    .academic{
+        width: 90%;
+        margin: auto;
+    }
+    .academicUnit{
+        height: 400px;
+        
     }
    
   }
