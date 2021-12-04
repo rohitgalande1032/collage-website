@@ -5,29 +5,77 @@
 }
 
 
-.head, .navs{
-    position: relative;
-    z-index: 1;
-    color: #fff;
-}
-
 .nav{
     width: 75%;
     margin: auto;
     color: #fff;
 }
 
-#navs{
-    background-color: red;
-}
 .caption{
     color: #fff;
     margin-bottom: 12rem;
     
 }
-.container{
-    color: #fff;
+
+.cardHead {
+    width: 80%;
+    margin: auto;
 }
+
+.mainslide{
+    position: absolute;
+}
+.cardHead {
+    position: relative;
+    bottom: 10rem;
+    width: 80%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: red;
+    transition: .5s;
+}
+.box{
+    height: 13rem;
+    width:12rem;
+}
+.box1, .box3{
+    background-color: #fff;
+}
+.box2, .box4{
+    background-color: red;
+}
+.about{
+    width: 80%;
+    margin: auto;
+}
+.aboutSection{
+    padding-right: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .head {
+
+      width: 90%;
+      margin: auto;
+    }
+    .text {
+        display: none;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+    }
+    .box1, .box4{
+        background-color: red;
+    }
+    .box2, .box3{
+        background-color: #fff;
+    }
+   
+  }
 
 
 

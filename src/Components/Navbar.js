@@ -21,7 +21,7 @@ const Navbars = () => {
 
                     
                     <NavDropdown title="Departments" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Computer</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.1">Computer Engineering</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Entc</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.3">Civil</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.1">Mechanical</NavDropdown.Item>

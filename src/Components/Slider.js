@@ -9,10 +9,10 @@ import third from '../images/home-3.jpg';
 const Slider = () => {
     return (
         <>
-         <div style={{ display: 'block', width: '100%', position:'absolute', top:'0' }}>
+         <div style={{ }} className='mainSlide'>
             <Carousel indicators={false} controls={false}>
                 <Carousel.Item interval={4000}>
-                <img style={{height: '100vh'}}
+                <img style={{height: '75.8vh'}}
                     className="d-block w-100"
                     src={first}
                     alt="Image One"
@@ -22,7 +22,7 @@ const Slider = () => {
                 </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={4000}>
-                <img style={{height: '100vh'}}
+                <img style={{height: '75.8vh'}}
                     className="d-block w-100"
                     src={second}
                     alt="Image Two"
@@ -32,7 +32,7 @@ const Slider = () => {
                 </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={4000}>
-                <img style={{height: '100vh'}}
+                <img style={{height: '75.8vh'}}
                     className="d-block w-100"
                     src={third}
                     alt="Image One"

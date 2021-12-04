@@ -1,9 +1,20 @@
 import React from 'react';
+import About from '../Components/About';
+import Card from '../Components/Cards';
 import Slider from '../Components/Slider';
+
 const Home = () => {
     return (
         <>
-           <Slider />
+        <div>
+            <Slider />
+        </div> 
+        <div>
+            <Card />    
+        </div>   
+        <div>
+            <About />
+        </div>
         </>
     )
 }
