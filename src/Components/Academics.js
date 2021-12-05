@@ -4,9 +4,16 @@ import {Row, Col} from 'react-bootstrap';
 const Academics = () => {
     return (
         <>
+                 <div id="features">
+                    <div class="feature">
+                        <div class="main-text">
+                            <p>Academics unit</p>
+                        </div>
+                    </div>
+                </div> 
                 <div className='academicUnit'>
                 <div style={{marginTop:'.5rem'}}>
-                <center><h3>Academics Unit</h3></center>
+                
                 </div>
                 <div className='academic'>
                     <Row>

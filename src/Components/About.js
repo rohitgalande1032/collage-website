@@ -6,8 +6,14 @@ import Director from '../images/sample1.png'
 const About = () => {
     return (
         <>
+        <div id="features">
+            <div class="feature">
+                <div class="main-text">
+                    <p>About Gcoeara</p>
+                </div>
+            </div>
+        </div> 
         <div className='about'>
-            <h1>About GCOEARA</h1>
             <Row>
                 <Col className='gcoeara' md={4} xs={12} sm={6}>
                     <div>

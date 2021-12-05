@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .nav{
     width: 75%;
     margin: auto;
@@ -25,9 +24,10 @@
 .mainslide{
     position: absolute;
 }
+
 .cardHead {
     position: relative;
-    bottom: 10rem;
+    bottom: 8rem;
     width: 80%;
     margin: auto;
     cursor: pointer;
@@ -37,33 +37,72 @@
     background-color: red;
     transition: .5s;
 }
+
 .box{
     height: 13rem;
     width:12rem;
 }
+
 .box1, .box3{
     background-color: #fff;
 }
+
 .box2, .box4{
     background-color: red;
 }
+
+#features{
+    width: 100%;
+    padding: 40px 0;
+}
+.feature{
+   
+    text-align: center;
+   
+}
+.main-text p{
+    
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.main-text p::after{
+    content: '';
+    top: -20px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#019587, #fff);
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
 .about{
     width: 80%;
     margin: auto;
 }
+
 .aboutSection{
     padding-right: 0px;
 }
+
 .academicUnit{
     width: 100%;
     background-color: gray;
     height: 350px;
     padding: 2rem 0;
 }
+
 .academic{
     width: 80%;
     margin: auto;
 }
+
 .unit{
     width: 270px;
     height: 140px;
@@ -72,17 +111,18 @@
     color: red;
     margin-top: 2rem;
 }
+
 .unit:hover{
     background-color: red;
     color: #fff;
     transition: .5s;
 }
+
 .cardName{
     width:18rem;
     height: 15rem;
     background-color: red;
 }
-
 
 @media screen and (max-width: 600px) {
     .head {
