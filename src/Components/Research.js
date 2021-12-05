@@ -55,14 +55,14 @@ const data = [
   
 ]
 
-const News = () => {
+const Research = () => {
     return (
         <>
         <div className="apps">
             <div id="features">
                     <div class="feature">
                         <div class="main-text">
-                            <p>News</p>
+                            <p>Research</p>
                         </div>
                     </div>
                 </div> 
@@ -108,7 +108,7 @@ const News = () => {
             <div id="features">
                     <div class="feature">
                         <div class="main-text">
-                            <p>News</p>
+                            <p>Research</p>
                         </div>
                     </div>
                 </div> 
@@ -154,4 +154,4 @@ const News = () => {
     )
 }
 
-export default News
+export default Research
