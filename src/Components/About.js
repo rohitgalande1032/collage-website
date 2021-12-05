@@ -6,7 +6,8 @@ import Director from '../images/sample1.png'
 const About = () => {
     return (
         <>
-        <div id="features">
+        <div style={{position:'relative', bottom:'4rem'}}>
+        <div id="features" >
             <div class="feature">
                 <div class="main-text">
                     <p>About Gcoeara</p>
@@ -64,6 +65,7 @@ const About = () => {
                     </div>
                 </Col>
             </Row>
+        </div>
         </div>
         </>
     )

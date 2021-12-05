@@ -123,6 +123,19 @@
     height: 15rem;
     background-color: red;
 }
+.app{
+    
+}
+.swiper-container {
+    background-color: rgb(218, 229, 253);
+    height: 100%;
+    width: 70%;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+
 
 @media screen and (max-width: 600px) {
     .head {
@@ -156,6 +169,11 @@
     .academicUnit{
         height: 400px;
         
+    }
+    .swiper-container {
+        height: 100%;
+        width: 100%;
+       
     }
    
   }
