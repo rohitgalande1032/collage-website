@@ -92,7 +92,7 @@ const Research = () => {
                     <SwiperSlide key={news.id} className="news-slide">
                         <Col>
                         <Card>
-                            <Card.Img variant="top" src={Image1} />
+                            <Card.Img variant="top" src={Image3} />
                             <Card.Body>
                             <Card.Title>{news.title}</Card.Title>
                             <Card.Text>
@@ -149,7 +149,7 @@ const Research = () => {
                     <SwiperSlide key={news.id} className="news-slide">
                         <Col>
                         <Card>
-                            <Card.Img variant="top" src={Image1} />
+                            <Card.Img variant="top" src={Image3} />
                             <Card.Body>
                             <Card.Title>{news.title}</Card.Title>
                             <Card.Text>

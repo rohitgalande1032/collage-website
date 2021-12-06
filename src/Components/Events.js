@@ -12,7 +12,7 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade]);
 const data = [
     {
         id: 1,
-        image: {Image1},
+        image: '../images/gcoeara1.png',
         title: 'GCOEARA can start from next semester',
         description: 'Expressing a strong support for the new partnership between the two institutes, Prof V. Ramgopal Rao, Director, IIT Awasari said'
     },
@@ -83,16 +83,13 @@ const Events = () => {
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
-                
                 >
                 {data.map(news => (
                     <Row md={4} sm={6} xs={12}>
                     <SwiperSlide key={news.id} className="news-slide">
                         <Col>
                         <Card>
-                            <Card.Img variant="top" src={Image1} />
+                            <Card.Img variant="top" src={Image2} />
                             <Card.Body>
                             <Card.Title>{news.title}</Card.Title>
                             <Card.Text>
