@@ -1,172 +1,4 @@
 
-.app{
-    display: none;
-}
-
-
-.line{
-    position:relative;
-    color: yellow;
-    cursor: pointer;
-}
-
-line::after{  
-    content: " ";
-    
-    display: block;
-    left:1;
-    width: 50%;
-    height: 2px;
-    bottom: 0px;
-    background-color: peru;    
-}
-
-
-
-
-
-.wrap{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    color: white;
-}
-.wrap-2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-}
-.quick-links{
-    font-size: 20px;
-    color: black;
-    border-bottom: red solid 2px ;
-    
-    
-}
-
-:link{
-    color:rgb(241, 241, 241);
-    text-decoration: none;
-}
-
-.background{
-    background-color: rgba(3, 5, 48, 0.911);
-    padding: 35px;
-}
-.bottom-border{
-    border-bottom:rgba(128, 128, 128, 0.664) dashed 1px;
-    padding: 5px;
-}
-.wrapper{
-	max-width: 425px;
-	width: 100%;
-	margin: 50px auto;
-}
-
-.accordion_container{
-	width: 100%;
-	height: 550px;
-	background: #fff;
-	box-shadow: 0 0 3px rgba(0,0,0,0.125);
-}
-
-.accordion_container .accordion_header{
-	background: #f6434c;
-	padding: 35px 15px;
-	height: 100px;
-	text-align: center;
-	color: #fff;
-	font-size: 26px;
-	box-shadow: 0 2px 1px rgba(0,0,0,0.125);
-}
-
-.accordion_container .accordion_body{
-	padding: 20px 25px;
-	height: calc(550px - 100px);
-	overflow: auto;
-}
-
-.accordion_container .accordion_body ul{
-	list-style: none;
-	padding: 0;
-}
-
-.accordion_container .accordion_body ul li{
-	border-bottom: 1px solid #e0e0e0;
-	padding: 0px 25px;
-	margin-bottom: 10px;
-  height: 60px;
-  overflow: hidden;
-  transition: height 0.3s ease;
-}
-
-.accordion_container .accordion_body ul li:last-child{
-	border-bottom: 0px;
-	margin-bottom: 0px;
-}
-
-.accordion_container .accordion_body ul li .li_qus{
-    color: #f6434c;
-    cursor: pointer;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.accordion_container .accordion_body ul li .li_qus p{
-  width: 250px;
-}
-
-.accordion_container .accordion_body ul li .li_qus .btn{
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	background: #f6434c;
-  position: relative;
-}
-
-.accordion_container .accordion_body ul li .li_qus .btn:before,
-.accordion_container .accordion_body ul li .li_qus .btn:after{
-	content: "";
-	position: absolute;
-	top: 14px;
-	left: 8px;
-	width: 15px;
-	height: 2px;
-	background: #fff;
-  transition: all 0.3s ease;
-}
-
-.accordion_container .accordion_body ul li .li_qus .btn:after{
-	transform: rotate(90deg);
-}
-
-.accordion_container .accordion_body ul li .li_ans {
-    padding: 10px 0;
-    height: 0;
-    padding-left: 40px;
-    font-size: 14px;
-    line-height: 21px;
-    transition: height 0.3s ease;
-}
-
-.accordion_container .accordion_body ul li.active{
-  height: 250px;
-}
-
-.accordion_container .accordion_body ul li.active .li_ans{
-    height: 500px;
-}
-
-.accordion_container .accordion_body ul li.active .li_qus .btn:after{
-  transform: rotate(0deg);
-}
-
-
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
 *{
@@ -349,7 +181,171 @@ line::after{
     border-radius: 10px;
 }
   
-  
+.app{
+    display: none;
+}
+
+
+.line{
+    position:relative;
+    color: yellow;
+    cursor: pointer;
+}
+
+line::after{  
+    content: " ";
+    
+    display: block;
+    left:1;
+    width: 50%;
+    height: 2px;
+    bottom: 0px;
+    background-color: peru;    
+}
+
+
+
+
+
+.wrap{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+.wrap-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.quick-links{
+    font-size: 20px;
+    color: black;
+    border-bottom: red solid 2px ;
+    
+    
+}
+
+:link{
+    color:rgb(241, 241, 241);
+    text-decoration: none;
+}
+
+.background{
+    background-color: rgba(3, 5, 48, 0.911);
+    padding: 35px;
+}
+.bottom-border{
+    border-bottom:rgba(128, 128, 128, 0.664) dashed 1px;
+    padding: 5px;
+}
+.wrapper{
+	max-width: 425px;
+	width: 100%;
+	margin: 50px auto;
+}
+
+.accordion_container{
+	width: 100%;
+	height: 550px;
+	background: #fff;
+	box-shadow: 0 0 3px rgba(0,0,0,0.125);
+}
+
+.accordion_container .accordion_header{
+	background: #f6434c;
+	padding: 35px 15px;
+	height: 100px;
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+	box-shadow: 0 2px 1px rgba(0,0,0,0.125);
+}
+
+.accordion_container .accordion_body{
+	padding: 20px 25px;
+	height: calc(550px - 100px);
+	overflow: auto;
+}
+
+.accordion_container .accordion_body ul{
+	list-style: none;
+	padding: 0;
+}
+
+.accordion_container .accordion_body ul li{
+	border-bottom: 1px solid #e0e0e0;
+	padding: 0px 25px;
+	margin-bottom: 10px;
+  height: 60px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.accordion_container .accordion_body ul li:last-child{
+	border-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.accordion_container .accordion_body ul li .li_qus{
+    color: #f6434c;
+    cursor: pointer;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion_container .accordion_body ul li .li_qus p{
+  width: 250px;
+}
+
+.accordion_container .accordion_body ul li .li_qus .btn{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #f6434c;
+  position: relative;
+}
+
+.accordion_container .accordion_body ul li .li_qus .btn:before,
+.accordion_container .accordion_body ul li .li_qus .btn:after{
+	content: "";
+	position: absolute;
+	top: 14px;
+	left: 8px;
+	width: 15px;
+	height: 2px;
+	background: #fff;
+  transition: all 0.3s ease;
+}
+
+.accordion_container .accordion_body ul li .li_qus .btn:after{
+	transform: rotate(90deg);
+}
+
+.accordion_container .accordion_body ul li .li_ans {
+    padding: 10px 0;
+    height: 0;
+    padding-left: 40px;
+    font-size: 14px;
+    line-height: 21px;
+    transition: height 0.3s ease;
+}
+
+.accordion_container .accordion_body ul li.active{
+  height: 250px;
+}
+
+.accordion_container .accordion_body ul li.active .li_ans{
+    height: 500px;
+}
+
+.accordion_container .accordion_body ul li.active .li_qus .btn:after{
+  transform: rotate(0deg);
+}
+
   
   
 /*====================== Responsive section================== */
