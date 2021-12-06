@@ -70,4 +70,4 @@ const Navbars = () => {
     )
 }
 
-export default Navbars
+export default Navbars;

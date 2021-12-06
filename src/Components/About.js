@@ -1,7 +1,7 @@
 import React from 'react';
 import {Row, Col, Button} from 'react-bootstrap';
 import ReactPlayer from 'react-player';
-import Director from '../images/sample1.png'
+import Director from '../images/principal.jpg'
 
 const About = () => {
     return (
@@ -71,4 +71,4 @@ const About = () => {
     )
 }
 
-export default About
+export default About;
