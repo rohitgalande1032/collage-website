@@ -123,7 +123,18 @@ const Events = () => {
                     </div>
                 </div> 
             <div className="">
+            <div style={{marginBottom:'20px'}}>
+                <div style={{ display:'flex'}}>
+                    <div><h3 style={{marginRight:'15px'}}>LATEST <span style={{color:'red'}}>EVENTS</span></h3></div>
+                    <div style={{marginRight:'15px'}}>ICON</div>
+                    <div> <Button variant="danger" size="sm">VIEW All</Button></div>
+                </div>
+                <div>
+                    <span style={{fontSize:'14px'}}>CREATING NEW KNOWLEDGE</span>
+                </div>
+                </div>
             <Swiper
+            
             effect='fade'
                 spaceBetween={50}
                 slidesPerView={1}

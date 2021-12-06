@@ -11,9 +11,17 @@
       content="Web site created using create-react-app"
     />
     <title>GOVERNMENT COLLAGE OF ENGINEERING ANG RESEARCH, AWASARI</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".accordion_body .li_qus").click(function() {
+			    $(this).parent().toggleClass("active");
+			});   
+		})
+	</script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+   
     
       <div>
         <div id='root'></div>
