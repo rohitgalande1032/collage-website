@@ -134,9 +134,60 @@
     border: 1px solid #ddd;
     border-radius: 10px;
 }
+.line{
+    position:relative;
+    color: yellow;
+    cursor: pointer;
+}
+
+line::after{  
+    content: " ";
+    
+    display: block;
+    left:1;
+    width: 50%;
+    height: 2px;
+    bottom: 0px;
+    background-color: peru;    
+}
 
 
 
+
+
+.wrap{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+.wrap-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.quick-links{
+    font-size: 20px;
+    color: black;
+    border-bottom: red solid 2px ;
+    
+    
+}
+
+:link{
+    color:rgb(241, 241, 241);
+    text-decoration: none;
+}
+
+.background{
+    background-color: rgba(3, 5, 48, 0.911);
+    padding: 35px;
+}
+.bottom-border{
+    border-bottom:rgba(128, 128, 128, 0.664) dashed 1px;
+    padding: 5px;
+}
 @media screen and (max-width: 600px) {
     .head {
 
@@ -180,6 +231,11 @@
     }
     .apps{
         display: none;
+    }
+    .wrap{
+        display:flex;
+        flex-direction: column;
+        
     }
    
   }

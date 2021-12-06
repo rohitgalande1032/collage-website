@@ -11,6 +11,7 @@ const Academics = () => {
                         </div>
                     </div>
                 </div> 
+                
                 <div className='academicUnit'>
                 <div style={{marginTop:'.5rem'}}>
                 

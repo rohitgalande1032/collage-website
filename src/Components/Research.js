@@ -67,6 +67,16 @@ const Research = () => {
                     </div>
                 </div> 
             <div className="">
+            <div style={{width:'80%',margin:'auto', marginBottom:'20px'}}>
+                <div style={{ display:'flex'}}>
+                    <div><h3 style={{marginRight:'15px'}}>LATEST <span style={{color:'red'}}>RESEARCH</span></h3></div>
+                    <div style={{marginRight:'15px'}}>ICON</div>
+                    <div> <Button variant="danger" size="sm">VIEW All</Button></div>
+                </div>
+                <div>
+                    <span style={{fontSize:'14px'}}>AWASARI REASERCH CENTER</span>
+                </div>
+                </div>
             <Swiper
                 spaceBetween={20}
                 slidesPerView={3}

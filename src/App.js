@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Navbars from './Components/Navbar';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 const App = () => {
     return (
@@ -17,7 +18,7 @@ const App = () => {
                 <Route exact path="/about" element={<About />}></Route>
             </Routes>
             
-        
+            <Footer />
         </BrowserRouter>
         </>
     )

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Button} from 'react-bootstrap';
 
 const Gallery = () => {
     return (
@@ -7,9 +8,11 @@ const Gallery = () => {
                     <div class="feature">
                         <div class="main-text">
                             <p>Gallery</p>
+                            
                         </div>
                     </div>
                 </div> 
+                
         </>
     )
 }
