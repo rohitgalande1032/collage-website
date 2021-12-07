@@ -17,7 +17,7 @@ const Slider = () => {
             <div style={{}} className='mainSlide'>
                 <Carousel indicators={false} controls={true}>
                     <Carousel.Item interval={4000}>
-                        <img style={{ height: '75.8vh' }}
+                        <img
                             className="img d-block w-100"
                             src={first}
                             alt="Image One"
