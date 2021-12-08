@@ -23,7 +23,7 @@
 }
 .head-part{
     width: 100%;
-    background-color: red;
+    background-color:#fff;
 }
 .head-sec{
     width: 80%;
@@ -31,7 +31,7 @@
 }
 .head-cont{
     margin: 20px 0 0 12px;
-    color: #fff;
+    color: #000;
 }
 .head-cont h1{
     font-size: 30px;
@@ -40,6 +40,7 @@
 .head-cont p{
     font-size:10px;
     margin-top: -5px;
+    font-weight: bold;
 }
 .head-sec{
     display: flex;
@@ -53,19 +54,22 @@
     padding: 15px 30px 15px 17px;
     width: 48px;
     height: 48px;
-    color: #333;
+    color: #fff;
     font-size: 15px;
     border: none;
     border-radius: 30px;
     outline: none;
     transition: 0.5s ease;
-    background: #fff;
+    background: #ff0000;
 }
 .search-toggle input[type=text]:hover {
     width: 200px;
 }
 .search-toggle input[type=text]:focus {
 	width: 200px;
+}
+.search-toggle input::placeholder{
+    color: #fff;
 }
 .search-toggle i {
     position: relative;
@@ -244,29 +248,14 @@
     display: none;
 }
 
-
-.line{
-    position:relative;
-    color: yellow;
-    cursor: pointer;
-}
-
-line::after{  
-    content: " ";
-    
-    display: block;
-    left:1;
-    width: 50%;
-    height: 2px;
-    bottom: 0px;
-    background-color: peru;    
-}
-
 .wrap{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
     color: white;
+}
+.bd{
+    border-right: 1px dashed #fff;
 }
 .wrap-2{
     display: flex;
@@ -277,11 +266,19 @@ line::after{
 .quick-links{
     font-size: 20px;
     color: black;
-    border-bottom: red solid 2px ;
+    position: relative;
     
     
 }
-
+.quick-links::after{
+    content: " ";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+}
 :link{
     color:rgb(241, 241, 241);
     text-decoration: none;
@@ -451,7 +448,7 @@ line::after{
     justify-content: space-between;
   }
   .counter-up .content .box{
-    border: 1px dashed rgba(255,255,255,0.9);
+    border: 1px dashed rgba(255,255,255,0.1);
     width: calc(25% - 30px);
     border-radius: 5px;
     display: flex;

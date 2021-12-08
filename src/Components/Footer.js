@@ -11,7 +11,7 @@ const Footer = () => {
         <>
             <section class="background">
             <div className="wrap">
-            <div>
+            <div className='bd'>
             <img class="footer-logo" src="https://www.gcoeara.ac.in/images/govt-college-logo.png
             " alt="img loading..." />
             <h4 className="text-center-1"> GOVERMENT COLLEGE OF ENGINEERING & RESARCH,AVASARI KHURD </h4>
@@ -22,9 +22,9 @@ const Footer = () => {
             <p><a href="https://www.gcoeara.ac.in">gcoeara.ac.in</a></p>
 
             </div>
-            <div>
+            <div style={{paddingLeft:'15px'}}>
 
-            <p className="quick-links " style={{margin:'10px 0', color:'red'}}> <strong> Quick Links </strong> </p>
+            <p className="quick-links " style={{color:'red'}}> <strong> Quick Links </strong> </p>
             <p className="bottom-border"> <a href="https://gcoeara.ac.in/about-us.php"> About Institute </a></p>
             <p className="bottom-border"> <a href="https://gcoeara.ac.in/vision.php"> Vision & Mission of the Institute</a></p>
             <p className="bottom-border"> <a href="https://gcoeara.ac.in/contact.php">Contact Us </a></p>
@@ -34,11 +34,8 @@ const Footer = () => {
             <p className="bottom-border"> <a href="http://www.unipune.ac.in/"> S.P.Pune University </a></p>
             <p className="bottom-border"> <a href="https://gcoeara.ac.in/prevention-of-ragging.php"> Prevention of Ragging </a></p>
 
-
-
-
             </div>
-            <div>
+            <div style={{marginTop:'-5px'}}>
             <p className="bottom-border"> <a href="https://gcoeara.ac.in/AllCommittes-Cells.php"> All commits and cells at institute level </a></p>
             <p className="bottom-border"><a href="https://gcoeara.ac.in/grievances-readdressal.php"> Grievances Redressal</a></p>
             <p className="bottom-border"><a href="https://gcoeara.ac.in/officeorder.php"> Interal Circulars, Minutes of Meeting & Orders </a> </p>
