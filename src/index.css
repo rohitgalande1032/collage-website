@@ -30,15 +30,17 @@
     margin: auto;
 }
 .head-cont{
+    margin: 20px 0 0 100px;
+    color: #fff;
     margin: 20px 0 0 12px;
     color: #000;
 }
 .head-cont h1{
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
 }
 .head-cont p{
-    font-size:10px;
+    font-size:18px;
     margin-top: -5px;
     font-weight: bold;
 }
@@ -80,10 +82,6 @@
 }
 
 /*======================== header part end============================= */
-.caption{
-    color: #fff;
-    margin-bottom: 12rem;
-}
 
 /* ===========================slider img section ======================= */
 .mainSlide .img{
@@ -91,6 +89,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: transparent !important;
+    animation:cubic-bezier(0.075, 0.82, 0.165, 1);
 }
   
 .mainslide{
@@ -105,7 +104,7 @@
     margin: auto;
     cursor: pointer;
 }
-  .box1, .box3{
+.box1, .box3{
     background-color: rgb(248, 219, 219);
     color: black;
 }
@@ -145,27 +144,12 @@
     font-size: 15px;
 }
   
-/*.box2:hover,
-  .box4:hover{
-      background-color: rgb(247, 123, 123);
-      transition: all 0.5s ease-in-out;
-  }
-  .box1:hover,
-  .box3:hover{
-      background-color: wheat;
-      transition: all 0.5s ease-in-out;
-  } */
-  /* .box{
-      height: 14rem;
-      width:12rem;
-} */
-  
   
 /*======================== About section ========================== */
   
 #features{
     width: 100%;
-    padding: 40px 0;
+    padding: 100px 0  30px 0;
 }
 .feature{
      
@@ -178,6 +162,7 @@
     z-index: 1;
     display: inline-block;
     text-transform: uppercase;
+    margin-bottom: -20px;
 }
 .main-text p::after{
     content: '';
@@ -201,12 +186,83 @@
 .aboutSection{
     padding-right: 0px;
 }
+.gcoeara{
+    background-color: rgb(248, 219, 219);
+    padding: 10px;
+
+}
+.gcoeara h3{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    color: red;
+    text-transform:uppercase;
+}
+.gcoeara h3::after{
+    content: " ";
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 40%;
+    height: 1px;
+    background-color:blue;
+}
+.gcoeara p{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.video{
+    padding: 10px;
+}
+.video h3{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    color: red;
+    text-transform:uppercase;
+}
+
+
+.principle{
+    background-color: rgb(248, 219, 219);
+    padding:10px;
+}
+.p_img{
+    width: 100%;
+}
+.principle h3{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: left;
+    color: red;
+    text-transform:uppercase;
+    position: relative;
+}
+.principle h3::after{
+    content: " ";
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background-color:blue;
+}
+.principle p{
+    font-size: 14px;
+    padding: 5px;
+}
   
+/* ============== Academic Section================== */
 .academicUnit{
     width: 100%;
-    background-color: gray;
+    background-color: rgb(237, 240, 250);
     height: 350px;
-    padding: 2rem 0;
+    padding: 0;
 }
   
 .academic{
@@ -215,18 +271,31 @@
 }
   
 .unit{
-    width: 270px;
+    width: 250px !important;
     height: 140px;
     border: 1px solid #000;
-    padding: 30px;
-    color: red;
-    margin-top: 2rem;
+    /* padding: 30px; */
+    margin: .7rem;
+    text-align: center;
 }
-  
+.unit i{
+    font-size: 50px;
+    color: black;
+    padding: 20px;
+}
+.unit h2{
+    font-size: 20px;
+    color: rgb(207, 61, 61);
+    font-weight: 600;
+}
 .unit:hover{
-    background-color: red;
-    color: #fff;
-    transition: .5s;
+    background-color: rgb(207, 61, 61);
+    color: #fff !important;
+    transition:all .5s ease-in-out;
+}
+.unit:hover h2,
+.unit:hover i{
+    color: white;
 }
   
 .cardName{
@@ -243,19 +312,73 @@
     border: 1px solid #ddd;
     border-radius: 10px;
 }
-  
+
 .app{
     display: none;
 }
 
+
+/* ================ footer section ============================ */
+.background{
+    background-color:black;
+    padding: 35px;
+}
 .wrap{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     color: white;
 }
 .bd{
     border-right: 1px dashed #fff;
+    text-align: center;
+    padding-right: 10px;
+}
+.footer-logo{
+    height: 80px;
+    width: 100px;
+    margin: 10px 0px;
+}
+.text-center-1{
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 15px 0px;
+}
+.bd p,
+.bd a{
+    font-size: 14px;
+    color: gray;
+    text-align: left !important;
+}
+.bd a:hover{
+    color: white !important;
+}
+.quick-link{
+    border-right: 1px dashed #fff;   
+    margin-right: 15px;
+}
+.Map{
+    border-right: 1px dashed #fff;   
+    padding-right:15px;
+}
+.map_cont{
+    display: flex;
+    margin-bottom: 14px;
+    position: relative;
+}
+.map_cont::after{
+    content: " ";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 70%;
+    height: 2px;
+    background-color: red;
+}
+.Map i{
+    font-size: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.Map h3{
+    font-size: 20px;
 }
 .wrap-2{
     display: flex;
@@ -265,33 +388,32 @@
 }
 .quick-links{
     font-size: 20px;
-    color: black;
+    color: white !important;
     position: relative;
-    
-    
 }
 .quick-links::after{
     content: " ";
     position: absolute;
-    bottom: -3px;
+    bottom: -10px;
     left: 0;
     width: 50%;
     height: 2px;
-    background-color: #fff;
+    background-color: red;
 }
 :link{
-    color:rgb(241, 241, 241);
+    color:gray;
     text-decoration: none;
 }
-
-.background{
-    background-color: rgba(3, 5, 48, 0.911);
-    padding: 35px;
+.wrap a:hover{
+    color: white !important;
 }
 .bottom-border{
     border-bottom:rgba(128, 128, 128, 0.664) dashed 1px;
-    padding: 5px;
+    /* padding: 4px; */
 }
+
+
+/* ========================== college Campus section */
 .wrapper{
 	max-width: 425px;
 	width: 100%;
@@ -401,25 +523,28 @@
 /* Counter section */
 .count-wrapper{
     padding: 20px 50px;
-  }
-  .count-wrapper .title{
+}
+.count-wrapper .title{
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 10px;
-  }
-  .count-wrapper p{
+}
+.count-wrapper p{
     text-align: justify;
     padding-bottom: 20px;
-  }
+}
 
 .counter-section{
-    background: url("https://pixabay.com/photos/a-book-read-college-student-4126483") no-repeat;
+    background: url("./images/bg-3.jpg") no-repeat;
+    /* opacity: 1; */
     background-size: cover;
+    background-color: transparent;
     background-position: center;
     background-attachment: fixed;
-  }
+    margin-bottom: 30px;
+}
   
-  .counter-up{
+.counter-up{
     min-height: 50vh;
     background-size: cover;
     background-attachment: fixed;
@@ -427,8 +552,8 @@
     position: relative;
     display: flex;
     align-items: center;
-  }
-  .counter-up::before{
+}
+.counter-up::before{
     position: absolute;
     content: "";
     top: 0;
@@ -436,8 +561,8 @@
     height: 100%;
     width: 100%;
     
-  }
-  .counter-up .content{
+}
+.counter-up .content{
     z-index: 1;
     position: relative;
     display: flex;
@@ -446,7 +571,10 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-  }
+}
+.counter-up .content .box{
+    border: 1px dashed rgba(230, 138, 138, 0.9);
+}
   .counter-up .content .box{
     border: 1px dashed rgba(255,255,255,0.1);
     width: calc(25% - 30px);
@@ -456,22 +584,56 @@
     justify-content: space-evenly;
     flex-direction: column;
     padding: 20px;
-  }
-  .content .box .icon{
+}
+.content .box .icon{
     font-size: 48px;
-    color: black;
-  }
-  .content .box .counter{
+    color:rgb(248, 18, 56);
+}
+.content .box .counter{
     font-size: 50px;
     font-weight: 500;
-    color: #000;
+    color:rgb(248, 219, 198);
     font-family: sans-serif;
-  }
-  .content .box .text{
-    font-weight: 400;
-    color: #000;
-  }
-  @media screen and (max-width: 1036px) {
+}
+.content .box .text{
+    font-weight: 700;
+    color: rgb(250, 27, 27);
+}
+
+/* ======= top arrow scroll ================ */
+#back-to-top{
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    z-index: 999;
+    display: none;
+    overflow: hidden;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3.5rem;
+    display: block !important;
+    background-color: #e0d6db;
+    color: #fff;
+    border-radius: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition:0.5s all ease-out;
+    -moz-transition:0.5s all ease-out;
+    -ms-transition:0.5s all ease-out;
+    -o-transition:0.5s all ease-out;
+    transition:0.5s all ease-out;
+}
+#back-to-top i{
+    font-size: 25px;
+}
+/* #back-to-top:hover{
+    background-color: #ff1b1b;
+    color: black;
+} */
+
+
+@media screen and (max-width: 1036px) {
     .counter-up{
       padding: 50px 50px 0 50px;
     }
@@ -479,20 +641,20 @@
       width: calc(50% - 30px);
       margin-bottom: 50px;
     }
-  }
-  @media screen and (max-width: 580px) {
+}
+@media screen and (max-width: 580px) {
     .counter-up .content .box{
       width: 50%;
     }
-  }
-  @media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
     .wrapper-section{
       padding: 20px;
     }
     .counter-up{
       padding: 30px 20px 0 20px;
     }
-  } 
+} 
   
 /*====================== Responsive section================== */
   
@@ -503,6 +665,12 @@
     }
       
     .img{height: 100vh;}
+
+    /* about section */
+    .p_img{
+        width: 150px;
+        height: 150px;
+    }
   
     /* slider image */
     .mainSlide .img{
@@ -557,20 +725,37 @@
     .caption{
         display: none;
     }
-    .unit{
-          width: 200px;
-          height: 120px;
-          padding: 30px;
-          margin-top: 1rem;
-    }
+    /* ========== Academic Section=========================== */
     .academic{
-          width: 90%;
-          margin: auto;
+        width: 90%;
+        margin: auto;
     }
     .academicUnit{
-          height: 400px;
-          
+        height: 500px;
     }
+    .unit{
+        width: 150px !important;
+        height: 150px;
+        /* padding: 30px; */
+        margin: .7rem;
+        text-align: center;
+    }
+    .unit i{
+        font-size:50px;
+        padding-top: 15px !important;
+        padding: 10px;
+        color: black;
+        text-align: center;
+    }
+    .unit h2{
+        font-size: 19px;
+        text-align: center;
+        padding-top:10px;
+        font-weight: 600;
+        color:  rgb(209, 34, 34);
+    }
+    
+
     .swiper-container {
         height: 100%;
         width: 100%;
@@ -594,10 +779,11 @@
         margin: 15px 0 0 10px;
     }
     .head-cont h1{
-        font-size: 20px;
+        font-size: 15px;
     }
     .head-cont p{
-        font-size:9px;
+        font-size:12px;
+        display: none;
     }
     .head-img{
         width: 60px;
@@ -607,15 +793,35 @@
     .search-toggle input[type=text] {
         padding: 15px 30px 15px 17px;
         width: 30px;
+        margin-top: 15px;
         height: 30px;
         font-size: 14px;
         border-radius: 20px;
     }
     .search-toggle input[type=text]:hover {
-        width: 150px;
+        width: 100px;
     }
     .search-toggle input[type=text]:focus {
-        width: 150px;
+        width: 100px;
+    }
+
+
+    /* footer section */
+    .bd{
+        border-right: none;
+        border-bottom: 1px solid white;
+        margin-bottom: 20px;
+    }
+    .quick-link{
+        border-right: none;   
+        border-bottom: 1px solid white;
+        margin-bottom: 20px;
+    }
+    .Map{
+        border-right: none;
+        border-bottom: 1px solid white;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
   
   }

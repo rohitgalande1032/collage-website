@@ -6,6 +6,7 @@ import About from './pages/About';
 import Navbars from './Components/Navbar';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import BackToTop from './Components/BackToTop';
 
 const App = () => {
     return (
@@ -17,12 +18,12 @@ const App = () => {
                 <Route exact path="/" element={<Home />}></Route>
                 <Route exact path="/about" element={<About />}></Route>
             </Routes>
-            
             <Footer />
+            <BackToTop />
         </BrowserRouter>
         </>
     )
 }
 
-export default App
+export default App;
 

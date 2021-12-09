@@ -1,46 +1,50 @@
 import React from 'react';
-import {Row, Col} from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 const Academics = () => {
     return (
         <>
-                 <div id="features">
+            {/* <div id="features">
+                <div class="feature">
+                    <div class="main-text">
+                        <p>Academics unit</p>
+                    </div>
+                </div>
+            </div> */}
+
+            <div className='academicUnit'>
+                <div id="features">
                     <div class="feature">
                         <div class="main-text">
                             <p>Academics unit</p>
                         </div>
                     </div>
-                </div> 
-                
-                <div className='academicUnit'>
-                <div style={{marginTop:'.5rem'}}>
-                
                 </div>
                 <div className='academic'>
                     <Row>
-                        <Col md={3} xs={6}>
-                        <div className="unit">
-                        Departments
-                        </div>
+                        <Col className='unit box-1' md={3} xs={6} sm={6}>
+                            <i className="far fa-building"></i>
+                            <h2>Departments</h2>
+
                         </Col>
-                        <Col md={3} xs={6}>
-                        <div className="unit">
-                        Placements
-                        </div>
+                        <Col className='unit box-2' md={3} xs={6} sm={6}>
+                            <i className="fas fa-award"></i>
+                            <h2>placements</h2>
+
                         </Col>
-                        <Col md={3} xs={6}>
-                        <div className="unit">
-                        Tenders
-                        </div>
+                        <Col className='unit box-3' md={3} xs={6} sm={6}>
+                            <i className="fas fa-university"></i>
+                            <h2>Tendars</h2>
+
                         </Col>
-                        <Col md={3} xs={6}>
-                        <div className="unit">
-                        Gallery
-                        </div>
+                        <Col className='unit box-4' md={3} xs={6} sm={6}>
+                            <i className="fas fa-images"></i>
+                            <h2>Gallery</h2>
+
                         </Col>
                     </Row>
                 </div>
-                
+
             </div>
         </>
     )

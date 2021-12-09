@@ -14,7 +14,7 @@ import eigth from '../images/h8.jpg';
 const Slider = () => {
     return (
         <>
-            <div style={{}} className='mainSlide'>
+            <div style={{}} className='mainSlide' id="slide">
                 <Carousel indicators={false} controls={true}>
                     <Carousel.Item interval={4000}>
                         <img
@@ -22,9 +22,7 @@ const Slider = () => {
                             src={first}
                             alt="Image One"
                         />
-                        <Carousel.Caption>
-                            <h1 className='caption'>Welcome to GCOEARA</h1>
-                        </Carousel.Caption>
+                      
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
                         <img style={{ height: '75.8vh' }}
@@ -32,9 +30,7 @@ const Slider = () => {
                             src={second}
                             alt="Image Two"
                         />
-                        <Carousel.Caption>
-                            <h1 className='caption'>Follow Your Dreams in GCOEARA</h1>
-                        </Carousel.Caption>
+                       
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
                         <img style={{ height: '75.8vh' }}
@@ -42,9 +38,7 @@ const Slider = () => {
                             src={third}
                             alt="Image One"
                         />
-                        <Carousel.Caption>
-                            <h1 className='caption'>Give a path to your derams</h1>
-                        </Carousel.Caption>
+                       
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
                         <img style={{ height: '75.8vh' }}
@@ -52,9 +46,7 @@ const Slider = () => {
                             src={four}
                             alt="Image One"
                         />
-                        <Carousel.Caption>
-                            <h1 className='caption'>Give a path to your derams</h1>
-                        </Carousel.Caption>
+                       
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
                         <img style={{ height: '75.8vh' }}
@@ -62,9 +54,7 @@ const Slider = () => {
                             src={five}
                             alt="Image One"
                         />
-                        <Carousel.Caption>
-                            <h1 className='caption'>Give a path to your derams</h1>
-                        </Carousel.Caption>
+                       
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
                         <img style={{ height: '75.8vh' }}
@@ -72,9 +62,7 @@ const Slider = () => {
                             src={six}
                             alt="Image One"
                         />
-                        <Carousel.Caption>
-                            <h1 className='caption'>Give a path to your derams</h1>
-                        </Carousel.Caption>
+                       
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
                         <img style={{ height: '75.8vh' }}
@@ -82,9 +70,7 @@ const Slider = () => {
                             src={seven}
                             alt="Image One"
                         />
-                        <Carousel.Caption>
-                            <h1 className='caption'>Give a path to your derams</h1>
-                        </Carousel.Caption>
+                       
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
                         <img style={{ height: '75.8vh' }}
@@ -92,9 +78,7 @@ const Slider = () => {
                             src={eigth}
                             alt="Image One"
                         />
-                        <Carousel.Caption>
-                            <h1 className='caption'>Give a path to your derams</h1>
-                        </Carousel.Caption>
+                       
                     </Carousel.Item>
                 </Carousel>
             </div>
