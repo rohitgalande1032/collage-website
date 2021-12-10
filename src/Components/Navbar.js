@@ -5,6 +5,7 @@ import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
 const Navbars = () => {
     return (
         <>
+        <div className='fix-toggle'>
             <Navbar bg='white' expand="sm" stiky="top" className="mr-16 fs-8 fw-lighter navs">
             <Container>
                 
@@ -66,6 +67,7 @@ const Navbars = () => {
                 </Navbar.Collapse>
             </Container>
             </Navbar>
+            </div>
         </>
     )
 }

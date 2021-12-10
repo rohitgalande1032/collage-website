@@ -663,6 +663,7 @@
         width: 90%;
         margin: auto;
     }
+    
       
     .img{height: 100vh;}
 
@@ -733,6 +734,10 @@
     .academicUnit{
         height: 500px;
     }
+    .academic-head{
+        width: 90%;
+        margin: auto;
+    }
     .unit{
         width: 150px !important;
         height: 150px;
@@ -776,14 +781,24 @@
         width: 100%;
     }
     .head-cont{
-        margin: 15px 0 0 10px;
+        margin: 15px 0 0 20px;
     }
     .head-cont h1{
-        font-size: 15px;
+        font-size: 16px;
+        font-weight: bold;
     }
     .head-cont p{
-        font-size:12px;
-        display: none;
+        font-size:6px;
+        font-weight: bold;
+    }
+    .head-part{
+        position: relative;
+    }
+    .fix-toggle{
+        position: absolute;
+        top: 5px;
+        left: 0;
+        z-index: 2;
     }
     .head-img{
         width: 60px;

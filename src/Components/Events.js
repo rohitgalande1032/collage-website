@@ -109,7 +109,7 @@ const Events = () => {
 
 
 
-            <div className="app" style={{ width: '80%', margin: 'auto' }}>
+            <div className="app" style={{ width: '95%', margin: 'auto' }}>
                 <div id="features">
                     <div class="feature">
                         <div class="main-text">
@@ -118,7 +118,7 @@ const Events = () => {
                     </div>
                 </div>
                 <div className="">
-                    <div style={{ marginBottom: '20px' }}>
+                    <div className="academic-head" style={{ marginBottom: '20px' }}>
                         <div style={{ display: 'flex' }}>
                             <div><h3 style={{ marginTop: '5px', marginRight: '5px', fontSize: '15px' }}>LATEST <span style={{ color: 'red' }}>EVENTS</span></h3></div>
                             <div style={{ marginRight: '15px', fontSize: '30px', color: 'gray', marginTop: '-9px' }}><i className="fas fa-users"></i></div>
