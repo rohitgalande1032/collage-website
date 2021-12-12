@@ -7,6 +7,8 @@ import Navbars from './Components/Navbar';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import BackToTop from './Components/BackToTop';
+import Computer from './Components/Computer';
+import Departments from './Components/Departments';
 
 const App = () => {
     return (
@@ -17,6 +19,8 @@ const App = () => {
             <Routes>
                 <Route exact path="/" element={<Home />}></Route>
                 <Route exact path="/about" element={<About />}></Route>
+                <Route exact path="/comp" element={<Computer />}></Route>
+                <Route exact path="/departments" element={<Departments />}></Route>
             </Routes>
             <Footer />
             <BackToTop />

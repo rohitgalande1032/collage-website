@@ -97,6 +97,19 @@
 }
   
 /* ======================= card setion =============================== */
+.Department{
+    width: 100%;
+    background-color: rgb(237, 240, 250);
+}
+.dept-head{
+    width: 80%;
+    margin: auto;
+    cursor: pointer;
+}
+.second-row{
+    margin: 2rem 0;
+}
+
 .cardHead {
     position: relative;
     bottom: 8rem;
@@ -627,6 +640,83 @@
 #back-to-top i{
     font-size: 25px;
 }
+
+/* computer department */
+.comp-dept{
+ width: 80%;
+ margin: auto;
+}
+.boxed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.boxs-2{
+    justify-content: center;
+    border-left: solid black 1px ;
+    padding-left: 5px;
+    border-right: solid black 1px;
+    
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.line-gap{
+    padding-bottom: 15px;
+    font-size: 20px;
+    border-bottom: dotted black 1px;
+    text-decoration: none;
+    
+}
+.comp-head{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 8px 8px;
+}
+.about-info{
+    text-align: center;
+    font-size: 35px;
+    
+   
+}
+.about{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.info{
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+}
+
+
+.center-box{
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.table-padding{
+    border-bottom: black dotted 1px;
+    padding-bottom: 10px ;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.e-mail{
+    text-decoration: none;
+    color: black;
+}
+.about-info{
+    font-size: 18px;
+    line-height: 20px;
+    padding: 20px 0;
+    text-align: left;
+}
+/* end comp dept */
 /* #back-to-top:hover{
     background-color: #ff1b1b;
     color: black;
@@ -838,7 +928,12 @@
         padding-bottom: 20px;
         margin-bottom: 20px;
     }
-  
+
+    /* computer dept */
+    .boxs-2{display: none;}
+    .table{
+        flex-direction: column;
+    }
   }
   
   /*========================= Responsive End================================ */
