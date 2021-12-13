@@ -9,6 +9,7 @@ import five from '../images/h5.jpg';
 import six from '../images/h6.jpg';
 import seven from '../images/h7.jpg';
 import eigth from '../images/h8.jpg';
+import {Image} from 'react-bootstrap';
 
 
 const Slider = () => {
@@ -17,66 +18,59 @@ const Slider = () => {
             <div style={{}} className='mainSlide' id="slide">
                 <Carousel indicators={false} controls={true}>
                     <Carousel.Item interval={4000}>
-                        <img
+                        <Image
                             className="img d-block w-100"
                             src={first}
-                            alt="Image One"
+                            
                         />
                       
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
-                        <img style={{ height: '75.8vh' }}
+                        <Image style={{ height: '75.8vh' }}
                             className="img d-block w-100"
                             src={second}
-                            alt="Image Two"
                         />
                        
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
-                        <img style={{ height: '75.8vh' }}
+                        <Image style={{ height: '75.8vh' }}
                             className="img d-block w-100"
                             src={third}
-                            alt="Image One"
                         />
                        
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
-                        <img style={{ height: '75.8vh' }}
+                        <Image style={{ height: '75.8vh' }}
                             className="img d-block w-100"
                             src={four}
-                            alt="Image One"
                         />
                        
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
-                        <img style={{ height: '75.8vh' }}
+                        <Image style={{ height: '75.8vh' }}
                             className="img d-block w-100"
                             src={five}
-                            alt="Image One"
                         />
                        
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
-                        <img style={{ height: '75.8vh' }}
+                        <Image style={{ height: '75.8vh' }}
                             className="img d-block w-100"
                             src={six}
-                            alt="Image One"
                         />
                        
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
-                        <img style={{ height: '75.8vh' }}
+                        <Image style={{ height: '75.8vh' }}
                             className="img d-block w-100"
                             src={seven}
-                            alt="Image One"
                         />
                        
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
-                        <img style={{ height: '75.8vh' }}
+                        <Image style={{ height: '75.8vh' }}
                             className="img d-block w-100"
                             src={eigth}
-                            alt="Image One"
                         />
                        
                     </Carousel.Item>

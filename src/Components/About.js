@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col, Button, Image } from 'react-bootstrap';
 import ReactPlayer from 'react-player';
 import Director from '../images/principal.jpg'
 
@@ -48,10 +48,10 @@ const About = () => {
                                 <div>
                                     <Row>
                                         <Col md={4}>
-                                            <img
+                                            <Image
                                                 className="p_img d-block"
                                                 src={Director}
-                                                alt="Image Two"
+                                                
                                             />
                                         </Col>
                                         <Col md={7}>

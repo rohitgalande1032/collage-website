@@ -14,51 +14,44 @@ const Departments = () => {
                 </div>
                 <div className='dept-head'>
                     <Row>
-                    <Col className='box box1' md={3} xs={6} sm={6}>
+                    <Col className='box box1' md={4} xs={12} sm={6}>
                         <h2>Computer</h2>
                         <i class="fas fa-desktop"></i>
                         <p>Computer Engineering </p>
                     </Col>
-                    <Col className='box box2' md={3} xs={6} sm={6}>
+                    <Col className='box box2' md={4} xs={12} sm={6}>
                         <h2>Electronics</h2>
-                        <i className="fas fa-newspaper"></i>
-                        <p>Electronics and Telecommunication </p>
+                        <i class="fas fa-tty"></i>
+                        <p>Electronics and Telecommunication Engineering</p>
                     </Col>
-                    <Col className='box box3' md={3} xs={6} sm={6}>
-                    <h2> Events</h2>
-                    <i className="fas fa-users"></i>
-                    <p>Events Beyond the Classroom</p>
+                    <Col className='box box3' md={4} xs={12} sm={6}>
+                    <h2>Civil</h2>
+                    <i class="fas fa-building"></i>
+                    <p>Civil Engineering</p>
                     </Col>
-                    <Col className='box box4' md={3} xs={6} sm={6}>
-                        <h2>Campus Life</h2>
-                        <i className="fas fa-user-graduate"></i>
-                        <p>Campus Stories and some Experiences</p>
+                    <Col className='box box4' md={4} xs={12} sm={6}>
+                        <h2>Mechanical</h2>
+                        <i class="fas fa-wrench"></i>
+                        <p>Mechanical Engineering</p>
                     </Col>
-                    </Row>
-                    <div className='second-row'>
-                    <Row>
-                    <Col className='box box1' md={3} xs={6} sm={6}>
+                    
+                    <Col className='box box1' md={4} xs={12} sm={6}>
                         <h2>Automobile</h2>
                         <i class="fas fa-car"></i>
                         <p>Automobile Engineering </p>
                     </Col>
-                    <Col className='box box2' md={3} xs={6} sm={6}>
-                        <h2>News</h2>
-                        <i className="fas fa-newspaper"></i>
-                        <p>Latest News in our Institue</p>
+                    <Col className='box box2' md={4} xs={12} sm={6}>
+                        <h2>Instrumentation</h2>
+                        <i class="fas fa-tty"></i>
+                        <p>Instrumentation Engineering</p>
                     </Col>
-                    <Col className='box box3' md={3} xs={6} sm={6}>
-                    <h2> Events</h2>
+                    <Col className='box box3' md={4} xs={12} sm={6}>
+                    <h2>Applied Science</h2>
                     <i className="fas fa-users"></i>
-                    <p>Events Beyond the Classroom</p>
-                    </Col>
-                    <Col className='box box4' md={3} xs={6} sm={6}>
-                        <h2>Campus Life</h2>
-                        <i className="fas fa-user-graduate"></i>
-                        <p>Campus Stories and some Experiences</p>
+                    <p>Applied Science</p>
                     </Col>
                     </Row>
-                    </div>
+                    
 
                 </div>
 
